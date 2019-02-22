@@ -1,0 +1,71 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.total-label {
+  font-weight: bold;
+}
+
+.amount-field {
+  width: 50px;
+}
+
+.errorMsg {
+    background-color: #a20000;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+div.rightContentContainer {
+    background-color: aquamarine;
+    margin-left: 200px;
+    width: 80%;
+    /* display: contents; */
+}
+
+main.rightContentContainer {
+    background-color: aquamarine;
+    margin-left: 200px;
+    width: 80%;
+    /* display: contents; */
+}
+
+ul.noDots {
+  list-style-type:none;
+}
+
+.leftNavContainer {
+  margin-top: 55px;
+    padding: 20px;
+    position: absolute;
+    width: 200px;
+    background-color: gray;
+    display: block;
+    height: 100%;
+}
+
+.sidebar-nav {
+  margin-top: 55px;
+  width: 250px;
+  height: 100%;
+}
+/*
+nav {
+  padding-top: 20px;
+  width: 190px;
+  font-size: large;
+  font-weight: bold;
+} */
+
+.main
+{
+    margin-left: 200px;
+    width:100% !important;
+    padding-left: 20px;
+}
