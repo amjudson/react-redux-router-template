@@ -11,6 +11,8 @@ import StudentManager from './containers/student/studentManager';
 import PageNotFound from './components/common/PageNotFound';
 import About from './components/About';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/toastr/build/toastr.min.css';
+import '../node_modules/@coreui/coreui/dist/css/coreui.min.css';
 import '../src/css/style.css';
 import AcademyManager from './containers/academy/acadeyManager';
 

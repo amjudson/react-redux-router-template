@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import '../../css/styles.less.css'
-// import '../../css/style.css'
+import '../../css/style.css'
 
 class SimpleNavigation extends Component {
   constructor(props) {
@@ -11,7 +10,8 @@ class SimpleNavigation extends Component {
   render() {
     return (
       <div>
-          <ul>
+        <nav>
+          <ul className='noDot'>
             <li>Martial Art Menu</li>
             <li>
               <Link to='/'>Home</Link>
@@ -26,6 +26,7 @@ class SimpleNavigation extends Component {
               <Link to='/about'>About</Link>
             </li>
           </ul>
+        </nav>
       </div>
     )
   };
